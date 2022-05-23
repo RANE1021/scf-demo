@@ -1,0 +1,435 @@
+@media (max-width: 481px) {
+    .desktop {
+        /* iPhone 8 - 1 */
+        position: relative;
+        width: 375px;
+        height: 2103px;
+
+        background: #FFFFFF;
+    }
+
+    .header {
+    /* Frame 10 */
+        position: absolute;
+        width: 375px;
+        height: 525px;
+        left: 0px;
+        top: 0px;
+
+        background: #FFF6ED;
+    }
+
+    .header-alt {
+        position: absolute;
+        width: 375px;
+        height: 525px;
+        left: 0px;
+        top: 0px;
+
+        background: #ECFAF6;
+    }
+
+    .scott-container {
+    /* Scott */
+        position: absolute;
+        width: 247px;
+        height: 274px;
+        left: 64px;
+        top: 315px;
+    }
+
+    .scott-image {
+    /* Illustration */
+        position: absolute;
+        width: 247px;
+        height: 274px;
+        top: 0px;
+
+        /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
+    }
+
+    .vacation-container {
+    /* Frame 7 */
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+
+        position: absolute;
+        width: 327px;
+        height: 227px;
+        left: calc(50% - 327px/2);
+        top: 64px;
+    }
+
+    .vacation-found {
+    /* Vacation, found. */
+        width: 326px;
+        height: 148px;
+
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 74px;
+
+        color: rgba(0, 0, 0, 0.87);
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .budget {
+        width: 327px;
+        height: 63px;
+
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: rgba(0, 0, 0, 0.87);
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .deals-header {
+    /* Our top finds this month */
+        position: absolute;
+        width: 327px;
+        height: 74px;
+        left: 24px;
+        top: 653px;
+
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+
+        color: rgba(0, 0, 0, 0.87);
+    }
+
+    .images {
+/* Frame 10 */
+    /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+
+        position: absolute;
+        width: 327px;
+        height: 1296px;
+    }
+
+.deal0-container {
+    /* Frame 4 */
+        width: 327px;
+        height: 416px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+
+.deal1-container,
+.deal2-container {
+    /*Frame 13*/
+        position: absolute;
+        width: 327px;
+        height: 400px;
+        left: 0px;
+        top: 0px;
+}
+
+    .deal-0 {
+        /*Frame 4*/
+        width: 512px;
+        height: 416px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .price-group {
+    /* price group */
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+
+        position: absolute;
+        width: 181px;
+        height: 86px;
+        left: 16px;
+        top: 330px;
+
+        background: #315577;
+        border-radius: 12px 0px;
+        z-index: 6;
+    }
+
+    .price-container {
+    /* price */
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+
+        width: 149px;
+        height: 32px;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .price-original {
+    /* #original */
+        width: 72px;
+        height: 32px;
+
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 32px;
+
+        /* identical to box height, or 100% */
+        text-decoration-line: line-through;
+
+        color: #FFFFFF;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .price-deal {
+    /* #deal */
+        width: 69px;
+        height: 32px;
+
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+
+        /* identical to box height, or 100% */
+        letter-spacing: -0.015em;
+
+        color: #FFFFFF;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .airport-text {
+    /* LAX to DTW */
+        width: 67px;
+        height: 14px;
+
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+
+        /* identical to box height, or 117% */
+        display: flex;
+        align-items: center;
+
+        color: #FFFFFF;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .see-more-container {
+    /* Frame 11 */
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 8px;
+        gap: 10px;
+
+        position: absolute;
+        width: 121px;
+        height: 48px;
+        right: -0.5px;
+        top: 0px;
+
+        background: #34D2AC;
+        border-radius: 0px 0px 0px 12px;
+        z-index: 7;
+    }
+
+    .see-more-container:hover {
+        background: #7EEBD1;
+    }
+
+    .see-more-text {
+    /* See more LAX */
+
+        width: 105px;
+        height: 18px;
+
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+
+        color: rgba(0, 0, 0, 0.87);
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .image0-container {
+    /* Frame 1 */
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 10px;
+
+        position: absolute;
+        width: 327px;
+        height: 400px;
+        left: 0px;
+        top: 0px;
+
+        border-radius: 12px 0px;
+    }
+
+    .image-0 {
+    /* detroit */
+        width: 327px;
+        height: 400px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .deal-1, .deal-2 {
+    /* Frame 5 */
+        width: 327px;
+        height: 416px;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .deal-2 {
+        order: 2;
+    }
+
+    .image1-container {
+        /*Frame 2*/
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 10px;
+
+        position: absolute;
+    }
+
+    .image-1 {
+        width: 327px;
+        height: 398.44px;
+        border-radius: 12px 0px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .image2-container {
+        /* Frame 3 */
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 10px;
+
+        position: absolute;
+    }
+
+    .image-2 {
+        width: 327px;
+        height: 398.44px;
+        border-radius: 12px 0px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .fake-company {
+        /* © 2022 Totally Fictitious Company */
+        position: absolute;
+        width: 182px;
+        height: 14px;
+        left: 4px;
+        top: 2099px;
+
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+
+        /* identical to box height */
+        color: rgba(0, 0, 0, 0.87);
+        transform: rotate(0deg);
+    }
+
+}

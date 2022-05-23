@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+
+import Deals from './components/deals/deals';
+import { Vacation } from './components/vacation/vacation.jsx';
+
 import './App.css';
+import './responsive.css';
 
 function App() {
+
+  const [specificAirport, setSpecificAirport] = useState(false);
+
+  const updateSpecificAirport = (state) => {
+    setSpecificAirport(state);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="desktop">
+        <Vacation specificAirport={specificAirport} />
+        <Deals specificAirport={specificAirport} updateSpecificAirport={updateSpecificAirport} />
+      </div>
+      <div className="fake-company">© 2022 Totally Fictitious Company</div>
+    </>
   );
 }
 
